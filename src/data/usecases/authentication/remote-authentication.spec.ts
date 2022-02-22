@@ -1,5 +1,5 @@
-import { HttpPostClient } from "data/protocols/http/http-post-client"
-import { RemoteAuthentication } from "./remote-authentication"
+import { HttpPostClient } from 'data/protocols/http/http-post-client'
+import { RemoteAuthentication } from './remote-authentication'
 
 describe('RemoteAuthentication', () => {
   test('should call HttpPostClient with correct URL', async () => {
